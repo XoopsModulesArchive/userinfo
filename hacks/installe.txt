@@ -1,0 +1,16 @@
+J'ai fait aussi un Hack pour le fichier "userinfo.php" se trouvant dans la racine du site Xoops (et oui c'est le même nom que mon module...) afin d'afficher le formulaire sous le profil de l'utilisateur.
+Les lignes du Hack sont à intercalées entre les lignes 135 et 136 :
+
+ligne 135 commence par :
+    echo "</table></td></tr></t...........
+
+ligne 136 commence par : 
+    } else {
+        echo "<div>";
+        printf(_US_INACTIVE,$uid);
+
+Bien entendu, ces numéros de lignes sont pour le fichier en V1.3.x.
+
+Alfy
+
+http://www.m-u-g.net
